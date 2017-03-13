@@ -37,7 +37,7 @@ public class VaadinUI extends UI {
         setContent(mainLayout);
 
         grid.setHeight(300, Unit.PIXELS);
-        grid.setWidthUndefined();
+        grid.setWidth(800, Unit.PIXELS);
         grid.setColumns("id", "name", "age", "admin", "createdDate");
 
         filter.setPlaceholder("Filter by name");
